@@ -92,6 +92,4 @@ Result: BobGuard re-scans the staged diff, finds 0 findings, prints No secrets o
 
 ### What to do with this file:
 Save this directly as `README.md` in your project root directory (`bobguard-agent/`). It covers everything required for both your GitHub repository and your lablab.ai submission text!
----
-
-## 📁 Repository Structure
+--.
