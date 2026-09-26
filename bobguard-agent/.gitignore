@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+bob-session-report.json
+bobguard-report.json
+bob-session-report.json

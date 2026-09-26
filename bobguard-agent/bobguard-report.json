@@ -1,0 +1,7 @@
+{
+  "tool": "BobGuard",
+  "version": "1.0.0",
+  "diff_source": "staged changes",
+  "findings_count": 0,
+  "findings": []
+}

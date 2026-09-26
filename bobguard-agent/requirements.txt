@@ -1,0 +1,18 @@
+# BobGuard — runtime dependencies
+#
+# All logic uses Python standard library only.
+# No third-party packages are required.
+#
+# Standard library modules used across the project:
+#
+#   re          — regular expression pattern matching (scanner.py)
+#   math        — math.log2 for Shannon entropy calculation (scanner.py)
+#   json        — JSON serialisation of the findings report (report_generator.py)
+#   pathlib     — Path objects for cross-platform file handling (report_generator.py, hook_manager.py)
+#   subprocess  — invoking `git diff --cached` at hook run-time (hook_manager.py)
+#   sys         — sys.argv dispatch and sys.exit() (hook_manager.py)
+#   os          — os.chmod to make the pre-commit hook executable (hook_manager.py)
+#   stat        — named permission constants (S_IRWXU etc.) used with os.chmod (hook_manager.py)
+#
+# To install (no-op for stdlib-only projects, but keeps the workflow uniform):
+#   pip install -r requirements.txt
